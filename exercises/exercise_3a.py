@@ -1,8 +1,9 @@
 __author__ = 'dhs'
 
 def is_prime(number):
-    for int in range(2,10):
-        if int >= number:
+    for integer in range(2,10):
+        if integer >= number:
+            #if the number is too small, the function might give a wrong answer!
             break
         if number % int == 0:
             return False
@@ -10,7 +11,12 @@ def is_prime(number):
 
 tested = int(input("Input an integer from 1 to 100!"))
 
-if is_prime(tested) == True:
-    print(tested, "is a prime number!")
+if 0 < tested <= 100:
+
+    if is_prime(tested) == True:
+        print(tested, "is a prime number!")
+    else:
+        print(tested, "is not a prime number!")
+
 else:
-    print(tested, "is not a prime number!")
+    print("That is not an integer from 1 to 100!")
