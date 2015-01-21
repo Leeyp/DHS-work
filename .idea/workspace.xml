@@ -22,7 +22,7 @@
     <SUITE FILE_PATH="coverage/DHS$q1_farenheit_to_celsius.coverage" NAME="q1_farenheit_to_celsius Coverage Results" MODIFIED="1421658286635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DHS$q6_find_ascii_char.coverage" NAME="q6_find_ascii_char Coverage Results" MODIFIED="1421659859494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DHS$q4_sum_digits.coverage" NAME="q4_sum_digits Coverage Results" MODIFIED="1421659413969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DHS$exercise_3a__1_.coverage" NAME="exercise_3a (1) Coverage Results" MODIFIED="1421802134809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises" />
+    <SUITE FILE_PATH="coverage/DHS$exercise_3a__1_.coverage" NAME="exercise_3a (1) Coverage Results" MODIFIED="1421802221757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises" />
     <SUITE FILE_PATH="coverage/DHS$q5_upper_to_lower.coverage" NAME="q5_upper_to_lower Coverage Results" MODIFIED="1421659704639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DHS$q3_miles_to_kilometre.coverage" NAME="q3_miles_to_kilometre Coverage Results" MODIFIED="1421658883629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DHS$excercise_2.coverage" NAME="excercise 2 Coverage Results" MODIFIED="1421716232646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -43,8 +43,8 @@
       <file leaf-file-name="exercise_3a.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exercises/exercise_3a.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2453271" vertical-offset="0" max-vertical-offset="428">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.17523365" vertical-offset="0" max-vertical-offset="428">
+              <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -520,8 +520,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/exercises/exercise_3a.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2453271" vertical-offset="0" max-vertical-offset="428">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.17523365" vertical-offset="0" max-vertical-offset="428">
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
           <folding />
         </state>
       </provider>

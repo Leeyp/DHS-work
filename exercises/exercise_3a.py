@@ -3,7 +3,7 @@ __author__ = 'dhs'
 def is_prime(number):
     for integer in range(2,10):
         if integer >= number:
-            #if the number is within 2 to 10, the function might give a wrong answer!
+            #if the number is within 2 to 10, without this condition, the function might give a wrong answer!
             break
         if number % integer == 0:
             return False
