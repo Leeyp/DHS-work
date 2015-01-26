@@ -30,7 +30,8 @@ while x == 0:
         else:
             print("The name is not in the phonebook!")
     elif command == "Display":
-        print(phonebook)
+        for k,v in phonebook.items():
+            print(k,v)
     elif command == "Quit":
         print("Thank you for using Lim Ah Seng Phonebook!")
         x = 1
