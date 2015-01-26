@@ -4,9 +4,9 @@ phonebook = {}
 while x == 0:
     command = input("Input your command! Search/Insert/Update/Delete/Display/Quit: ")
     if command == "Search":
-        entry = input("Input an entry to search for: ")
-        if entry in d:
-            print("Entry is found!")
+        entry = input("Input a name to search for: ")
+        if entry in phonebook:
+            print(phonebook[entry])
         else:
             print("Entry not found!")
     elif command == "Insert":
@@ -26,7 +26,6 @@ while x == 0:
     elif command == "Delete":
         name = input("What is the name? ")
         if name in phonebook:
-            number = input("What is the phone number? ")
             del phonebook[name]
         else:
             print("The name is not in the phonebook!")
