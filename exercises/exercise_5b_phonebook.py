@@ -2,11 +2,15 @@ __author__ = 'dhs'
 
 def contacts(book):
     try:
-        outfile = open("CONTACTS.DAT", "w")
-        for k,v in book.items():
-            outfile.write("{0:20.20s} {1:.8}\n".format(k, v))
+        infile = open("CONTACTS.DAT", "r")
+        lines = infile.readlines()
+        for line in lines:
+            name = str(line[0:19])
+            book[name] = str(line[20:28])
+        return book
+
     except IOError:
-        print("Can't write to Contacts")
+        print("Can't read Contacts")
     return 0
 
 def newcontacts(book):
@@ -21,7 +25,7 @@ def newcontacts(book):
 x = 0
 phonebook = {}
 while x == 0:
-    command = input("Input your command! Search/Insert/Update/Delete/Display/Quit: ")
+    command = input("Input your command! Search/Insert/Update/Delete/Display/Import/Quit: ")
     if command == "Search":
         entry = input("Input a name to search for: ")
         if entry in phonebook:
@@ -35,6 +39,8 @@ while x == 0:
             phonebook[name] = number
         else:
             print("The name is already in the phonebook!")
+    elif command == "Import":
+        phonebook = contacts(phonebook)
     elif command == "Update":
         name = input("What is the name? ")
         if name in phonebook:
@@ -53,7 +59,6 @@ while x == 0:
             print(k,v)
     elif command == "Quit":
         print("Thank you for using Lim Ah Seng Phonebook!")
-        contacts(phonebook)
         newcontacts(phonebook)
         x = 1
     else:
