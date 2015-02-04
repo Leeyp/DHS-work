@@ -9,7 +9,7 @@ def contacts(book):
             book[name] = str(line[20:28])
         return book
 
-    except IOError:
+    except FileNotFoundError:
         print("Can't read Contacts")
     return 0
 
