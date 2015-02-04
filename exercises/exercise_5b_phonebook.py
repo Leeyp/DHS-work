@@ -13,7 +13,7 @@ def newcontacts(book):
     try:
         outfile = open("NEWCONTACTS.DAT", "a")
         for k,v in book.items():
-            outfile.write("{0:20s} {1:8}\n".format(k, v))
+            outfile.write("{0:20.20s} {1:.8}\n".format(k, v))
     except IOError:
         print("Can't write to New Contacts")
     return 0
