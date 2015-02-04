@@ -22,10 +22,11 @@ def newcontacts(book):
         print("Can't write to New Contacts")
     return 0
 
-x = 0
+loop = 0
 phonebook = {}
-while x == 0:
-    command = input("Input your command! Search/Insert/Update/Delete/Display/Import/Quit: ")
+phonebook = contacts(phonebook)
+while loop == 0:
+    command = input("Input your command! Search/Insert/Update/Delete/Display/Quit: ")
     if command == "Search":
         entry = input("Input a name to search for: ")
         if entry in phonebook:
@@ -39,8 +40,6 @@ while x == 0:
             phonebook[name] = number
         else:
             print("The name is already in the phonebook!")
-    elif command == "Import":
-        phonebook = contacts(phonebook)
     elif command == "Update":
         name = input("What is the name? ")
         if name in phonebook:
